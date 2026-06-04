@@ -74,20 +74,3 @@ cd ~/ros_study_ws
 source devel/setup.bash
 roslaunch ros_basics talker_listener.launch
 ```
-
-## 공부 순서
-
-1. `hello_node.cpp`: ROS node가 무엇인지 보기
-2. `talker.cpp`: topic publish 연습
-3. `listener.cpp`: topic subscribe와 callback 연습
-4. `talker_listener.launch`: 여러 node를 launch로 같이 실행하기
-
-## 이 예제가 현재 SR-AMR 코드 읽기에 도움이 되는 이유
-
-`sp2_docking`의 `Sp2DockingManager`도 결국 같은 기본기를 씁니다.
-
-- `subscribe`: `robot_state`, `reflected`, `charge_contact` 등을 받음
-- `publish`: `cmd_vel`, `docking/status`, `detection/status` 등을 보냄
-- `callback`: topic이 들어오면 함수가 자동 실행됨
-- `launch/run`: ROS node를 실행해서 callback loop를 유지함
-
