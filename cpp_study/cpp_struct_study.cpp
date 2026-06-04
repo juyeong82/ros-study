@@ -103,7 +103,7 @@ struct PIDParams {
 // ---------------------------------------------------------------------------
 //
 // 아래 StudyParams는 "어떤 장치를 제어하기 위한 설정값 묶음"이라는 가상의 예제입니다.
-// 실제 회사 코드가 아니라, 우리가 본 패턴을 공부용으로 단순화한 것입니다.
+// 앞에서 본 구조체 패턴을 공부용으로 단순화한 예제입니다.
 struct DetectionOption {
     std::string modelName;
     float matchingScoreThreshold;
