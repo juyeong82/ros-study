@@ -1,0 +1,6 @@
+<launch>
+  <!-- talker와 listener를 한 번에 실행하는 launch 파일입니다. -->
+  <node pkg="ros_basics" type="talker" name="talker" output="screen" />
+  <node pkg="ros_basics" type="listener" name="listener" output="screen" />
+</launch>
+
