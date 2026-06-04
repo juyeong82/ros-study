@@ -1,19 +1,3 @@
-/*
- * C++ struct study notes
- *
- * 목적:
- * - 회사 코드 내용을 노출하지 않고, 우리가 공부한 "구조체/생성자/초기화/객체/namespace/배열"
- *   문법을 순수 예제 코드로 정리한 파일입니다.
- * - 실제 프로젝트 로직이 아니라, 문법 패턴을 이해하기 위한 작은 예제입니다.
- *
- * 컴파일 예시:
- *   g++ -std=c++17 cpp_struct_study.cpp -o cpp_struct_study
- *
- * 실행 예시:
- *   ./cpp_struct_study
- *   ./cpp_struct_study --help
- */
-
 #include <cmath>
 #include <iostream>
 #include <string>
